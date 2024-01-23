@@ -1,17 +1,17 @@
 poolDb = [
     {
-        'lptoken': 'N2DR',
-        'rwdtoken': 'N2DR',
-        'lplogo': './public/n2dr.png',
-        'rwlogo': './public/n2dr.png',
+        'lptoken': 'ROB',
+        'rwdtoken': 'ROB',
+        'lplogo': './public/rob.png',
+        'rwlogo': './public/rob.png',
         'autocompclass': 'btn btn-md btn-success',
         'autocompound': 'Auto Compound'
     },
     {
-        'lptoken': 'USDT',
-        'rwdtoken': 'N2DR',
-        'lplogo': './public/usdt.png',
-        'rwlogo': './public/n2dr.png',
+        'lptoken': 'ROB:PLS LP',
+        'rwdtoken': 'ROB',
+        'lplogo': './public/robpls.png',
+        'rwlogo': './public/rob.png',
         'autocompclass': 'btn btn-md btn-success disabled',
         'autocompound': 'Auto Compound Unavailable'
     },

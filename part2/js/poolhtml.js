@@ -6,7 +6,7 @@ async function generatePools() {
     for (let i = 0; i < poolDb.length; i++) {
         const cardSection = document.createElement("div");
         cardSection.className = "d-flex justify-content-start align-items-center p-2 mx-auto pb-1 mb-1 text-white rounded shadow-sm"
-        cardSection.style.background = '#00000060';
+        cardSection.style.background = '#c4a548';
 
         // GRID 1
 
@@ -71,7 +71,7 @@ async function generatePools() {
         cardGrid6.className = 'd-grid mx-auto';
         const pendingTitle = document.createElement("h6");
         const pendingValue = document.createElement("h5");
-        pendingValue.style.color = '#39FF14';
+        pendingValue.style.color = '#8000ff';
         pendingTitle.textContent = 'Pending Rewards';
         pendingValue.id = 'pending' + 0;
         pendingValue.textContent = poolArray[i].reward;
@@ -116,7 +116,7 @@ async function generatePools() {
 
         let modalContent = document.createElement("div");
         modalContent.className = "modal-content";
-        modalContent.style.background = "#05014a"
+        modalContent.style.background = "#ba8a18"
 
         let modalHeader = document.createElement("div");
         modalHeader.className = "modal-header";
@@ -203,7 +203,7 @@ async function generatePools() {
         let col2Title = document.createElement("h6");
         col2Title.textContent = "Your Earnings";
         let col2Info = document.createElement("h5");
-        col2Info.style.color = "#39FF14";
+        col2Info.style.color = "#8000ff";
         col2Info.style.textShadow = "0px 0px 2px #ffffff90";
         col2Info.id = "reward" + i;
         col2Info.textContent = poolArray[i].reward;
